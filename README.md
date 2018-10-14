@@ -17,6 +17,6 @@ Gallery / Poze
 
 How should look after instalation / Cum ar trebuii să arate după instalare
 -
-   `modules/gui.lua`
+   `vrp/modules/gui.lua`
 
 ![alt text](https://i.imgur.com/yubDwGj.png)
