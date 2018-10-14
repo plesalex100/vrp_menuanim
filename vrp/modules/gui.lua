@@ -8,12 +8,14 @@ local seq_out = {
   {"cellphone@","cellphone_text_out",1}
 }
 
--- EN: In function "vRP.openMainMenu"
--- RO: În funcția "vRP.openMainMenu"
+-- EN: At the end of the "vRP.openMainMenu"
+-- RO: La sfârșitul funcției "vRP.openMainMenu"
   TriggerClientEvent("createPhone", source)
   vRPclient.playAnim(source,{true,seq_in,true})
   
--- EN: In function "tvRP.closeMenu"
--- RO: În funcția "tvRP.closeMenu"
-  TriggerClientEvent("deletePhone", source)
-  vRPclient.playAnim(source,{true,seq_out,false})
+-- EN: At the end of the function "tvRP.closeMenu"
+-- RO: La sfârșitul funcției "tvRP.closeMenu"
+  if menu.def.name == "Main menu" then
+	  TriggerClientEvent("deletePhone", source)
+	  vRPclient.playAnim(source,{true,seq_out,false})
+  end
