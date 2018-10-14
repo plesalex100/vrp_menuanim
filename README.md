@@ -1,5 +1,5 @@
 English
 - This is not a resource
 
-Romanian
+Română
 - Aceasta nu este o resursa
