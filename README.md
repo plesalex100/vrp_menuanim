@@ -24,4 +24,5 @@ How should look after instalation / Cum ar trebuii să arate după instalare
 Credits
 -
 - Idea: Ezague
-- vrp_phonecall, https://alexguirre.github.io/animations-list/
+- vrp_phonecall from DGVaniX
+- https://alexguirre.github.io/animations-list/
