@@ -2,7 +2,7 @@ English
 - 
 - A simple script that displays an animation when opening the menu (K)
 - This is not a resource don't put it in "resources" folder
-- Require vRP
+- Requires vRP
 
 Română
 -
