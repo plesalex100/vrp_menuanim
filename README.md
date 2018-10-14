@@ -14,3 +14,9 @@ Gallery / Poze
 -
 
 ![alt text](https://i.imgur.com/XFuWy0m.png) ![alt text](https://i.imgur.com/vSNv1P5.png)
+
+How should look after instalation / Cum ar trebuii să arate după instalare
+-
+   `modules/gui.lua`
+
+![alt text](https://i.imgur.com/yubDwGj.png)
