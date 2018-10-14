@@ -6,11 +6,14 @@ AddEventHandler("createPhone", function()
     phoneModel = GetHashKey("prop_npc_phone_02")
     Citizen.CreateThread(function()
         RequestModel(phoneModel)
-        myPhone = CreateObject(phoneModel, coords.x, coords.y, coords.z, true, true, false)
-        AttachEntityToEntity(myPhone, playerPed, bone, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 1, 0, 0, 2, 1)
+	if not myPhone then
+		myPhone = CreateObject(phoneModel, coords.x, coords.y, coords.z, true, true, false)
+		AttachEntityToEntity(myPhone, playerPed, bone, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 1, 0, 0, 2, 1)
+	end
     end)
 end)
 RegisterNetEvent("deletePhone")
 AddEventHandler("deletePhone", function()
 	DeleteObject(myPhone)
+	myPhone = nil
 end)
