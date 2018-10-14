@@ -1,7 +1,7 @@
 English
 -
-- Just add script in your file
+- Just add scripts in your files
 
 Română
 -
-- Doar adăugă script-ul in fișierele tale
+- Doar adăugă script-urile in fișierele tale
