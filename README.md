@@ -21,7 +21,7 @@ How should look after instalation / Cum ar trebuii să arate după instalare
 
 ![alt text](https://i.imgur.com/yubDwGj.png)
 
-Credit
+Credits
 -
 - Idea: Ezague
 - vrp_phonecall, https://alexguirre.github.io/animations-list/
