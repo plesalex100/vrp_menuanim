@@ -9,3 +9,8 @@ Română
 - Un simplu script care afișează o animație la deschiderea meniului (K)
 - Aceasta nu este o resursă nu o puneți in folder-ul "resources"
 - Funționează doar cu vRP
+
+Gallery / Poze
+-
+
+![alt text](https://i.imgur.com/XFuWy0m.png) ![alt text](https://i.imgur.com/vSNv1P5.png)
