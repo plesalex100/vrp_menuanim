@@ -20,3 +20,8 @@ How should look after instalation / Cum ar trebuii să arate după instalare
    `vrp/modules/gui.lua`
 
 ![alt text](https://i.imgur.com/yubDwGj.png)
+
+Credit
+-
+- Idea: Ezague
+- vrp_phonecall, https://alexguirre.github.io/animations-list/
