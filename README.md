@@ -19,7 +19,7 @@ How should look after instalation / Cum ar trebuii să arate după instalare
 -
    `vrp/modules/gui.lua`
 
-![alt text](https://i.imgur.com/zJYGNWm.png)
+![alt text](https://i.imgur.com/P76TB2w.png)
 
 Credits
 -
