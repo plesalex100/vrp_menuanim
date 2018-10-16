@@ -20,11 +20,11 @@ local phoneAnim = {}
   
 -- EN: In first "if" from function "tvRP.closeMenu"
 -- RO: La primul "if" al funcției "tvRP.closeMenu"
-	if phoneAnim[source] then
-	  TriggerClientEvent("deletePhone", source)
-	  vRPclient.playAnim(source,{true,seq_out,false})
-	  phoneAnim[source] = false
-	end
+    if phoneAnim[source] then
+      TriggerClientEvent("deletePhone", source)
+      vRPclient.playAnim(source,{true,seq_out,false})
+      phoneAnim[source] = false
+    end
 
 
 --- Method 2
@@ -61,11 +61,11 @@ end
 function tvRP.closeMenu(id)
   local menu = client_menus[id]
   if menu and menu.source == source then
-	if phoneAnim[source] then
-	  TriggerClientEvent("deletePhone", source)
-	  vRPclient.playAnim(source,{true,seq_out,false})
-	  phoneAnim[source] = false
-	end
+    if phoneAnim[source] then
+      TriggerClientEvent("deletePhone", source)
+      vRPclient.playAnim(source,{true,seq_out,false})
+      phoneAnim[source] = false
+    end
     -- call callback
     if menu.def.onclose then
       menu.def.onclose(source)
