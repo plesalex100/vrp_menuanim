@@ -1,4 +1,4 @@
---- Method 1
+--- Method 1 ----------------------------------------------
 -- EN: Before "function vRP.openMainMenu"
 -- RO: Înainte de "function vRP.openMainMenu"
 local seq_in = {
@@ -35,7 +35,7 @@ end)
     end
 
 
---- Method 2
+--- Method 2 ----------------------------------------------
 -- EN: Replace functions "vRP.openMainMen" and "vRP.openMainMenu"
 -- RO: Înlocuiește funcțiile "vRP.openMainMen" și "vRP.openMainMenu"
 
