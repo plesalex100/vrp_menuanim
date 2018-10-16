@@ -9,6 +9,14 @@ local seq_out = {
   {"cellphone@","cellphone_text_out",1}
 }
 local phoneAnim = {}
+AddEventHandler("vRP:playerLeave", function(user_id, source)
+  if phoneAnim[source] then
+	  TriggerClientEvent("deletePhone", source)
+	  vRPclient.playAnim(source,{true,seq_out,false})
+    phoneAnim[source] = false
+  end
+end)
+
 
 -- EN: At the end of the "vRP.openMainMenu"
 -- RO: La sfârșitul funcției "vRP.openMainMenu"
@@ -41,6 +49,13 @@ local seq_out = {
   {"cellphone@","cellphone_text_out",1}
 }
 local phoneAnim = {}
+AddEventHandler("vRP:playerLeave", function(user_id, source)
+  if phoneAnim[source] then
+	  TriggerClientEvent("deletePhone", source)
+	  vRPclient.playAnim(source,{true,seq_out,false})
+    phoneAnim[source] = false
+  end
+end)
 
 -- open the player main menu
 function vRP.openMainMenu(source)
