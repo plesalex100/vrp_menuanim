@@ -11,8 +11,8 @@ local seq_out = {
 local phoneAnim = {}
 AddEventHandler("vRP:playerLeave", function(user_id, source)
   if phoneAnim[source] then
-	  TriggerClientEvent("deletePhone", source)
-	  vRPclient.playAnim(source,{true,seq_out,false})
+    TriggerClientEvent("deletePhone", source)
+    vRPclient.playAnim(source,{true,seq_out,false})
     phoneAnim[source] = false
   end
 end)
@@ -51,8 +51,8 @@ local seq_out = {
 local phoneAnim = {}
 AddEventHandler("vRP:playerLeave", function(user_id, source)
   if phoneAnim[source] then
-	  TriggerClientEvent("deletePhone", source)
-	  vRPclient.playAnim(source,{true,seq_out,false})
+    TriggerClientEvent("deletePhone", source)
+    vRPclient.playAnim(source,{true,seq_out,false})
     phoneAnim[source] = false
   end
 end)
