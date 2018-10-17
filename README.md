@@ -3,12 +3,14 @@ English
 - A simple script that displays an animation when opening the menu (K)
 - This is not a resource don't put it in "resources" folder
 - Requires vRP
+- Don't forget to backup `vrp/modules/gui.lua` before start working
 
 Română
 -
 - Un simplu script care afișează o animație la deschiderea meniului (K)
 - Aceasta nu este o resursă nu o puneți in folder-ul "resources"
 - Funționează doar cu vRP
+- Nu uita să faci un backup la `vrp/modules/gui.lua` înainte de a începe
 
 Gallery / Poze
 -
