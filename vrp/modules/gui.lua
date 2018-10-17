@@ -1,6 +1,6 @@
 --1--------------------------------------------------------------------------------------------
---- EN: At the beggining of the file
---- RO: La începutul fișierului
+--- EN: At the beggining of the file after `local rclient_menus = {}`
+--- RO: La începutul fișierului după `local rclient_menus = {}`
 local seq_in = {
   {"cellphone@","cellphone_text_in",1},
   {"cellphone@","cellphone_text_read_base",1}
@@ -17,7 +17,7 @@ AddEventHandler("vRP:playerLeave", function(user_id, source)
   end
 end)
 -- menus: Menu names cfg to activate animation can be just "Main menu" *case sensitive*
-local menus = {"Phone", "Admin", "menu_name1", "menu_name2"}
+local menus = {"Phone", "Admin", "Menu_name1", "menu_name2"}
 --2--------------------------------------------------------------------------------------------
 --- EN: At the beggining of the function "vRP.openMenu"
 --- RO: La începutul funcției "vRP.openMenu"
