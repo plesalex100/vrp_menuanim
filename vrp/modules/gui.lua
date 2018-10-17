@@ -17,6 +17,7 @@ AddEventHandler("vRP:playerLeave", function(user_id, source)
   end
 end)
 -- menus: Menu names cfg to activate animation can be just "Main menu" *case sensitive*
+--local menus = {"Main menu"}
 local menus = {"Phone", "Admin", "Menu_name1", "menu_name2"}
 --2--------------------------------------------------------------------------------------------
 --- EN: At the beggining of the function "vRP.openMenu"
