@@ -15,6 +15,10 @@ Gallery / Poze
 
 ![alt text](https://i.imgur.com/XFuWy0m.png) ![alt text](https://i.imgur.com/vSNv1P5.png)
 
+Config
+-
+`vrp/modules/gui.lua` -> `menus`
+
 Credits
 -
 - Idea: Ezague
