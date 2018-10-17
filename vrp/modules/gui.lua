@@ -34,12 +34,10 @@ local menus = {"Phone", "Admin", "Menu_name1", "menu_name2"}
 --3--------------------------------------------------------------------------------------------  
 --- EN: In first "if" from function "tvRP.closeMenu"
 --- RO: La primul "if" al funcției "tvRP.closeMenu"
-    --for i, v in pairs(menus) do
-      if menu.def.name == v then
-        if phoneAnim[source] == true then
-	  TriggerClientEvent("deletePhone", source)
-	  vRPclient.playAnim(source,{true,seq_out,false})
-	  phoneAnim[source] = false
-	end
+    if menu.def.name == v then
+      if phoneAnim[source] == true then
+	TriggerClientEvent("deletePhone", source)
+	vRPclient.playAnim(source,{true,seq_out,false})
+        phoneAnim[source] = false
       end
-    --end
+    end
