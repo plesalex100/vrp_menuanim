@@ -24,8 +24,8 @@ local menus = {"Phone", "Admin", "menu_name1", "menu_name2"}
   for i, v in pairs(menus) do
     if menudef.name == v then
       if not phoneAnim[source] then
-	      TriggerClientEvent("createPhone", source)
-	      vRPclient.playAnim(source,{true,seq_in,true})
+        TriggerClientEvent("createPhone", source)
+        vRPclient.playAnim(source,{true,seq_in,true})
       end
       phoneAnim[source] = true
     end
