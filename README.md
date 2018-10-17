@@ -17,13 +17,15 @@ Gallery / Poze
 
 Config
 -
-`vrp/modules/gui.lua` -> `menus`
+`vrp/modules/gui.lua` -> `local menus`
 
 Put in `menus` variable, title of the wanted menu. Look at pictures as example.
 
 ![alt text](https://i.imgur.com/FI30ign.png)
 ![alt text](https://i.imgur.com/QP7KN64.png)
 ![alt text](https://i.imgur.com/qryy74X.png)
+
+(!) Titles are `case-sensitive`: "Admin", "Garage (Police)", "Phone"
 
 Credits
 -
