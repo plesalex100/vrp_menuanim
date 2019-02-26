@@ -16,16 +16,6 @@ AddEventHandler("vRP:playerLeave", function(user_id, source)
     phoneAnim[source] = false
   end
 end)
-function case(pattern)
-  local p = pattern:gsub("(%%?)(.)", function(percent, letter)
-    if percent ~= "" or not letter:match("%a") then
-      return percent .. letter
-    else
-      return string.format("%s%s", letter:lower(), letter:upper())
-    end
-  end)
-  return p
-end
 -- menus: Menu names cfg to activate animation can be just "Main menu" *no case sensitive*
 --local menus = {"Main menu"}
 local menus = {"phone", "AdMiN", "Menu_name1", "menu_name2"}
@@ -33,7 +23,7 @@ local menus = {"phone", "AdMiN", "Menu_name1", "menu_name2"}
 --- EN: At the beggining of the function "vRP.openMenu"
 --- RO: La începutul funcției "vRP.openMenu"
   for i, v in pairs(menus) do
-    if case(menudef.name) == case(v) then
+    if menudef.name:lower() == v:lower() then
       if not phoneAnim[source] then
         TriggerClientEvent("createPhone", source)
         vRPclient.playAnim(source,{true,seq_in,true})
